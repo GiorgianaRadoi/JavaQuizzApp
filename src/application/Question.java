@@ -52,7 +52,7 @@ public class Question {
         ArrayList<Question> questions = new ArrayList<>();
 
         try {
-            //CHANGE PATH WITH YOUR PATH
+            //CHANGE PATH WITH YOUR PATH!!!
             Path filePath = Paths.get("C:\\Users\\g10r61a\\IdeaProjects\\Quizz\\src\\resources\\questions.txt");
             // Reads lines from file
             Files.lines(filePath).forEach(line -> {
