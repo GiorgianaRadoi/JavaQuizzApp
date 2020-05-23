@@ -52,7 +52,8 @@ public class Question {
         ArrayList<Question> questions = new ArrayList<>();
 
         try {
-            Path filePath = Paths.get("D:\\Users\\User\\Documents\\Quizz\\src\\resources\\questions.txt");
+            //CHANGE PATH WITH YOUR PATH
+            Path filePath = Paths.get("C:\\Users\\g10r61a\\IdeaProjects\\Quizz\\src\\resources\\questions.txt");
             // Reads lines from file
             Files.lines(filePath).forEach(line -> {
                 if (line.startsWith("//") || line.isEmpty()) { // Ignores lines starting with '//' (comments)
